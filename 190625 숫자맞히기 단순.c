@@ -11,7 +11,8 @@ int main()
 	
 		srand(time(NULL));  // 현재 시간을 씨드로 사용하기
 		computer = rand()%end+begin;
-
+	
+		
 		do
 		{			
 			printf("\n컴퓨터가 숨긴 수(%d~%d)는 얼마일까요? ", begin, end, computer);
