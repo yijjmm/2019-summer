@@ -11,7 +11,7 @@ int main()
 
 	s_weight = (height - 100) * 0.9;
 
-	printf("표준 체중: .1lf", s_weight);
+	printf("표준 체중: %1lf", s_weight);
 
 	return 0;
 }
