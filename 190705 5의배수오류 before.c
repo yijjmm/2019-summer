@@ -1,5 +1,6 @@
 // 5의 배수 개수가 틀리게 나오는 오류를 수정하기
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()								// main 함수 정의
