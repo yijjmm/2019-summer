@@ -19,15 +19,13 @@ int main()								// main 함수 정의
 		if (i % 3 == 0)				// 3으로 나눈 나머지가 0과 같다면(==)
 		{
 			cnt3 = cnt3 + 1;
-			i = i + 1;
 		}
 		if (i % 5 == 0)
 		{
 			cnt5 = cnt5 + 1;
-			i = i + 1;
 		}
-		else						
-			i = i + 1;
+
+		i = i + 1;
 	}
 
 	printf("1~%d까지 3의 배수 개수 : %d \n", n, cnt3);	// print 3의 배수 개수
