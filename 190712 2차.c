@@ -2,9 +2,9 @@
 #include <stdio.h>
 #define SIZE 100000
 
-// 방법1 : 57 초
-// 방법2 : 44 초
-// 방법3 : 초
+// 59s
+// 44s
+// 30s
 
 
 int main()
